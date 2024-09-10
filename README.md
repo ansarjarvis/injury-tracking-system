@@ -6,7 +6,7 @@ This project is an **Injury Management Companion** application built using Next.
 
 ## Live Demo
 
-[Lief: Injury Management System](https://chat-with-pdf-lemon.vercel.app/)
+[Lief: Injury Management System](https://injury-tracking-system-roan.vercel.app/)
 
 ## Features
 
