@@ -56,8 +56,8 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ansarjarvis/chat-with-pdf-saas.git
-   cd chat-with-pdf-saas
+   git clone https://github.com/ansarjarvis/injury-tracking-system.git
+   cd injury-tracking-system
    ```
 
 2. set up the environment variables:
