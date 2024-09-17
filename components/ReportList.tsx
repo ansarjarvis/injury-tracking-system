@@ -80,6 +80,8 @@ export default function InjuryReportList() {
     },
   });
 
+  refetch();
+
   useEffect(() => {
     if (fetchedData) {
       setData(fetchedData);
