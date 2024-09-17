@@ -58,6 +58,7 @@ export default function InjuryReportList() {
       let response = await fetch("/api/reports");
       if (response.ok) {
         let data = await response.json();
+        console.log(data);
         return data;
       }
     },

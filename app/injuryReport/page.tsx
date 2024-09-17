@@ -35,6 +35,7 @@ export default function InjuryReport() {
         },
         body: JSON.stringify(reportData),
       });
+      console.log(response);
       if (!response.ok) {
         throw new Error("Failed to submit the report");
       }
@@ -88,6 +89,7 @@ export default function InjuryReport() {
       const rect = canvas.getBoundingClientRect();
       const x = event.clientX - rect.left;
       const y = event.clientY - rect.top;
+
       const newInjury: Injury = {
         id: injuries.length + 1,
         x,
